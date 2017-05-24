@@ -1,0 +1,110 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #FCFCFD;
+}
+#nav {
+  height: 200px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 22px;
+}
+
+#name-logo {
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+#work {
+  float: right;
+  margin-right: 50px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+#about {
+  float: right;
+  margin-right: 50px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+#contact {
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+#dylan-dills img {
+  float: right;
+}
+
+.flower-bear {
+  border-radius: 5px 5px 5px;
+  border-width: 10px;
+  border-style: hidden;
+}
+
+#content {
+  float: left;
+  width: 600px;
+  margin-top: 75px;
+  margin-left: 30px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+
+#content h2 {
+  font-size: 30px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+#content p::first-letter {
+    font-size: 200%;
+    color: #B1D12F;
+}
+
+#pickle {
+  width: 200px;
+  position:absolute;
+  left: 0px;
+  top: 33px;
+}
+#icons {
+  margin-top: 50px;
+  margin-left: 100px;
+  clear: both;
+}
+#icons img {
+  float: left;
+  width: 50px;
+  margin-top: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 40px;
+}
+#email-button {
+  border-radius: 5px 5px 5px;
+  border: solid 3px #A9AD05;
+  width: 150px;
+  text-align: center;
+  background-color: #A9AD05;
+  color: white;
+  clear: both;
+  margin-left: 168px;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+#email-button:hover {
+  background-color: #8CA104;
+}
